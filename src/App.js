@@ -17,8 +17,6 @@ const App = () => {
               <>
                 <Header />
                 <Body />
-                <About />
-                <Contact />
                 <Footer />
               </>
             }
@@ -59,30 +57,4 @@ const App = () => {
   );
 };
 
-// const appRouter = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <App />,
-//     children: [
-//       {
-//         path: "/",
-//         element: <Body />,
-//       },
-//       {
-//         path: "/about",
-//         element: <About />,
-//       },
-//       {
-//         path: "/contact",
-//         element: <Contact />,
-//       },
-//       {
-//         path: "/gallary",
-//         element: <Gallery />,
-//       },
-//     ],
-//   },
-// ]);
-
-// export default appRouter;
 export default App;

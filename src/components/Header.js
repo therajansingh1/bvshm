@@ -15,9 +15,7 @@ const Header = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-brand">
-          <h1>
-            <Link to="/">BVSHM</Link>
-          </h1>
+            <Link to="/" > <img className="logo" src="/assets/logo.jpg" alt="logo" /> </Link>
         </div>
         <div className={`navbar-menu ${isOpen ? "open" : ""}`}>
           <ul className="navbar-nav">

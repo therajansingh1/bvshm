@@ -4,7 +4,7 @@ const About = () => {
       <h2>about bvshm</h2>
       <div className="about-items">
         <div className="about-mission ">
-          <img className="float-left" src="/assets/img-1.webp" alt="" />
+          <img className="float-left" src="/assets/IMG-20191223-WA0013.jpg" alt="" />
           <div className="mission-text">
             <h2>Mission and Values</h2>
             <p>
@@ -17,9 +17,8 @@ const About = () => {
             </p>
           </div>
         </div>
-
         <div className="about-mission">
-          <img className="float-right" src="/assets/img-2.webp" alt="" />
+          <img className="float-right" src="/assets/IMG-20191204-WA0030.jpg" alt="" />
           <div className="mission-text">
             <h2>Our Faculty</h2>
             <p>
@@ -32,7 +31,7 @@ const About = () => {
           </div>
         </div>
         <div className="about-mission">
-          <img className="float-left" src="/assets/img-3.webp" alt="" />
+          <img className="float-left" src="/assets/IMG20200108131334.jpg" alt="" />
           <div className="mission-text">
             <h2>Research and Innovation</h2>
             <p>

@@ -19,7 +19,7 @@ const Body = () => {
           </div>
         </div>
         <div className="img-container">
-          <img src="/assets/OBJECTS.png" alt="imagelogo" />
+          <img src="/assets/IMG_20200305_163813.jpg" alt="imagelogo" />
         </div>
       </div>
       <>

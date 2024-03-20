@@ -12,20 +12,22 @@ const Contact = () => {
           to hearing from you!
         </p>
 
-        <button className="btn">
-          <Link
-            target="_blank"
-            to="https://api.whatsapp.com/send/?phone=918116478144&text&type=phone_number&app_absent=0"
-          ></Link>
-          Message us on WhatsApp
-        </button>
+        <Link
+          className="btn"
+          target="_blank"
+          to="https://api.whatsapp.com/send/?phone=918116478144&text&type=phone_number&app_absent=0"
+        >
+          <p>Message us on WhatsApp</p>
+        </Link>
+
         <h4>Berhampore Vivekananda School of Hotel Management</h4>
         <p>
           18/6, K.K. Banerjee Road near Yamaha showroom Gora Bazar, Berhampore,
           West Bengal , India
         </p>
-          <a className="btn" href="mailto:bves2014@gmail.com">Email</a>
-        
+        <a className="btn" href="mailto:bves2014@gmail.com">
+          Email
+        </a>
       </div>
     </div>
   );

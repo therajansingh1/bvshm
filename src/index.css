@@ -35,10 +35,12 @@
   font-family: var(--jost);
 }
 
-.navbar-brand {
-  font-size: 1.5rem;
-}
 
+.logo{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
 .navbar-menu {
   display: block;
 }
@@ -101,9 +103,13 @@ a{
 }
 .img-container {
   width: 50%;
+  height: 100%;
 }
 .img-container > img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 /* about section */
