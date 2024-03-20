@@ -4,7 +4,7 @@ const About = () => {
       <h2>about bvshm</h2>
       <div className="about-items">
         <div className="about-mission ">
-          <img className="float-left" src="/assets/IMG-20191223-WA0013.jpg" alt="" />
+          <img id="abt-img" className="float-left " src="/assets/logo.jpg" alt="" />
           <div className="mission-text">
             <h2>Mission and Values</h2>
             <p>
